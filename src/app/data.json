@@ -1,0 +1,87 @@
+[
+    {
+        "categoryDefine": "HIGH‑PERFORMANCE WIRELESS EARPHONES",
+        "title": "Powerbeats",
+        "details": "Lightweigth wireless earphone for all-day activity",
+        "features": [
+            "Up to 15 hours of listening time",
+            "Sweat & water resistant",
+            "Adjustable, secure-fit earhooks",
+            "Streamlined, round cable"
+        ],
+        "price": 149.95,
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/powerbeats/plp/bbd.plpassset.earphones.powerbeats.jpg.large.2x.jpg",
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739"
+
+    },
+    {
+        "categoryDefine": "",
+        "title": "Powerbeats Pro",
+        "details": "TOTALLY WIRELESS EARPHONES BUILT FOR PERFORMANCE",
+        "features": [
+            "Up to 15 hours of listening time",
+            "Sweat & water resistant",
+            "Adjustable, secure-fit earhooks",
+            "Streamlined, round cable"
+        ],
+        "price": 249.99,
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/powerbeats-pro/plp/bbd.plpassset.earphones.powerbeatspro.jpg.large.2x.jpg",
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739"
+    },
+    {
+        "categoryDefine": "EVERYDAY WIRELESS ON‑EAR HEADPHONES",
+        "title": "Solo Pro",
+        "details": "NOISE CANCELLING WIRELESS HEADPHONES TO STAY INSPIRED",
+        "features": [
+            "Active Noise Cancelling (ANC)",
+            "Transparency Mode",
+            "Up to 22 hours of listening time",
+            "Integrated on-ear controls"
+        ],
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739",
+        "price": 299.95,
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo-pro/plp/bbd.plpassset.headphones.solopro.jpg.large.1x.jpg"
+    },
+    {
+        "categoryDefine": "",
+        "title": "Beats Solo3 Wireless",
+        "details": "CLASSIC ALL‑DAY HEADPHONES",
+        "features": [
+            "Active Noise Cancelling (ANC)",
+            "Transparency Mode",
+            "Up to 22 hours of listening time",
+            "Integrated on-ear controls"
+        ],
+        "price": 199.95,
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739",
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/plp/bbd.plpassset.headphones.solo3wireless.jpg.large.2x.jpg"
+    },
+    {
+        "categoryDefine": "PREMIUM SOUND WIRELESS OVER‑EAR HEADPHONES",
+        "title": "Beats Studio3 Wireless",
+        "details": "NOISE CANCELLING WIRELESS HEADPHONES TO BLOCK DISTRACTIONS",
+        "features": [
+            "Active Noise Cancelling (ANC)",
+            "Up to 22 hours of listening time",
+            "Apple W1 Chip & Class 1 Wireless Bluetooth®",
+            "On‑ear controls"
+        ],
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739",
+        "price": 349.95,
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studio3-wireless/plp/bbd.plpassset.headphones.studio3wireless.jpg.large.1x.jpg"
+    },
+    {
+        "categoryDefine": "ALWAYS‑READY WIRELESS EARPHONES",
+        "title": "BeatsX",
+        "details": "WIRELESS EARPHONES FOR ALL‑DAY WEAR",
+        "features": [
+            "Active Noise Cancelling (ANC)",
+            "Up to 22 hours of listening time",
+            "Apple W1 Chip & Class 1 Wireless Bluetooth®",
+            "On‑ear controls"
+        ],
+        "smallImg": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWNW2?wid=110&hei=78&fmt=jpeg&qlt=95&op_usm=0.5,1.5&.v=1586808348739",
+        "price": 99.95,
+        "img": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/beatsx/plp/bbd.plpassset.earphones.beatsx.jpg.large.1x.jpg"
+    }
+]
