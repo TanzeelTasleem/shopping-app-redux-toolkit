@@ -2,9 +2,19 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import { cartState, payload, Product } from "../../types";
 
-
 const initialState: cartState = {
-  cart: [],
+  cart: [
+    //   {
+    //   categoryDefine :"",
+    //   details:"",
+    //   features : [""],
+    //   img : "",
+    //   price: 0 ,
+    //   quantity : 0 ,
+    //   smallImg :"",
+    //   title: ""
+    // }
+  ],
   total: 0,
 };
 export const cartSlice = createSlice({
@@ -21,8 +31,13 @@ export const cartSlice = createSlice({
             state.total = Number(
               (state.total + action.payload.price).toFixed(2)
             );
+            return {
+              ...state,
+            };
           }
+          return state;
         });
+        return state;
       } else {
         state.cart.push(action.payload);
         state.total = Number((state.total + action.payload.price).toFixed(2));
@@ -42,14 +57,20 @@ export const cartSlice = createSlice({
                 action.payload.price * state.cart[index].quantity
               ).toFixed(2)
             );
+            state.cart = state.cart.filter(
+              (product: Product) => product.title !== action.payload.title
+            );
           }
+          return {
+            state,
+            cart: state.cart,
+            total: state.total,
+          };
         });
       }
-      state.cart = state.cart.filter(
-        (product: Product) => product.title !== action.payload.title
-      );
     },
     reduceQuantity: (state, action) => {
+      
       if (
         state.cart.some(
           (product: Product) => product.title === action.payload.title
@@ -62,6 +83,9 @@ export const cartSlice = createSlice({
               (state.total - action.payload.price).toFixed(2)
             );
           }
+          return {
+            ...state,
+          };
         });
       } else {
         state.cart.push(action.payload);
